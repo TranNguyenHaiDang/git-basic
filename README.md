@@ -45,9 +45,8 @@ const a = 100;
 git log
 ```
 
-
 | header1  | header2  | header3  |
-|----------|----------|----------|
+| -------- | -------- | -------- |
 | content1 | content2 | content3 |
 |          |          |          |
 |          |          |          |
@@ -66,3 +65,4 @@ git push -u origin <tên nhánh>: đẩy nhánh dưới local lên remote mà kh
 git fetch -p : để cập nhật lại các branch đã bị xóa trên remote(dùng github để xóa)
 git push -u origin <tên nhánh>: lệnh push lần đầu để những lần push sau không cần viết tên nhánh nữa(git push)
 cat .git/config: để xem local branch đã kết nối với remote branch chưa
+Handle B da edit
