@@ -78,4 +78,4 @@ git log
 - git push -f: ép đẩy lên
 - git revert <mã hash> --no-edit: tạo ra một commit mới đối ngược với commit cũ
 - git rebase -i HEAD~3(commit dòng 3): để gộp commit(gộp commit sau vào commit trước mới được)
-- git rebase -i <tên mã hash trước mã muốn thay đổi>: để thay đổi message commit
+- git rebase -i HEAD~<dòng commit muốn thay đổi>: để thay đổi message commit
