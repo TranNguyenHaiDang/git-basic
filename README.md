@@ -77,5 +77,6 @@ git log
 - git log --oneline: hiện ra lịch sử mã hash đã commit
 - git push -f: ép đẩy lên
 - git revert <mã hash> --no-edit: tạo ra một commit mới đối ngược với commit cũ
-- git rebase -i HEAD~3(commit dòng 3): để gộp commit(gộp commit sau vào commit trước mới được)
-- git rebase -i <tên mã hash trước mã muốn thay đổi>: để thay đổi message commit
+- git rebase -i HEAD~3(commit dòng 3): để gộp commit(gộp commit sau vào commit trước mới được) và thay đổi message cũ đã commit
+- git rebase --abort: hủy rebase
+- git commit --amend: thay đổi tên message hoặc logic của commit gần nhất
